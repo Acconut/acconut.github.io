@@ -1,0 +1,92 @@
+html, body {
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.Header-Avatar {
+  max-width: 200px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.Header {
+  overflow: hidden;
+  background: #fffcf0;
+  padding: 130px 0;
+  border-bottom: 1px solid #f7ebbd;
+}
+
+.Header-Box {
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.Header-Text {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.Heading {
+  font-size: 1.8rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px; 
+}
+
+.Section {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.Work-Entry {
+  margin-bottom: 50px;
+}
+
+.Work-Entry-Image {
+  max-width: 200px;
+  padding-right: 40px;
+  float: left;
+}
+
+.Work-Entry-Text {
+  overflow: hidden;
+}
+
+.Work-Entry-Link {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #71460f;
+}
+
+.Work-Entry-Link::before {
+  content: "\02192  ";
+}
+
+a {
+  color: #71460f;
+}
+
+.Contact-Text {
+	text-align: justify;
+}
+
+@media (max-width: 950px) {
+  .Header {
+    padding: 40px 30px;
+  }
+  
+  .Header-Avatar, .Work-Entry-Image  {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  .Section {
+    padding: 30px;
+  }
+}
